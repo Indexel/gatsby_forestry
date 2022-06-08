@@ -26,3 +26,5 @@ fields:
   config:
     required: false
   label: Table link
+pages:
+- src/content/table/table-hero.md

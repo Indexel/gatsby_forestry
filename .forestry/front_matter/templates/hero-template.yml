@@ -17,3 +17,5 @@ fields:
   config:
     required: false
   label: Hero second title
+pages:
+- src/content/hero/hero-home.md

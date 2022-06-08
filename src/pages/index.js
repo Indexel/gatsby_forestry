@@ -20,7 +20,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div className={styles.textCenter}>
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Welcome to <b>Indexel!</b>
       </h1>
     </div>
     <ul className={styles.list}>

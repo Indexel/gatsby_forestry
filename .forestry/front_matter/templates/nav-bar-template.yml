@@ -27,3 +27,5 @@ fields:
   config:
     required: false
   label: Nav bar contact link
+pages:
+- src/content/navBar/nav-home.md

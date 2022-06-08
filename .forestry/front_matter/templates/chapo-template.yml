@@ -16,3 +16,5 @@ fields:
   config:
     required: false
   label: Chapo link
+pages:
+- src/content/chapo/chapo-home.md

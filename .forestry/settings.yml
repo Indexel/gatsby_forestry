@@ -5,10 +5,26 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: src/content/table
+  label: Table
+  create: documents
+  match: "**/*"
+  templates:
+  - table-template
+- type: directory
+  path: src/content/chapo
+  label: Chapô
+  create: documents
+  match: "**/*"
+  templates:
+  - chapo-template
+- type: directory
   path: src/content/navBar
   label: Nav bar
   create: documents
   match: "**/*"
+  templates:
+  - nav-bar-template
 - type: directory
   path: src/content/hero
   label: Hero

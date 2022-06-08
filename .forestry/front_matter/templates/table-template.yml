@@ -1,4 +1,28 @@
 ---
 label: Table template
 hide_body: true
-fields: []
+fields:
+- name: table_title
+  type: text
+  config:
+    required: false
+  label: Table title
+- name: table_subtitle
+  type: text
+  config:
+    required: false
+  label: Table subtitle
+- name: table_content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Table content
+- name: table_link
+  type: text
+  config:
+    required: false
+  label: Table link

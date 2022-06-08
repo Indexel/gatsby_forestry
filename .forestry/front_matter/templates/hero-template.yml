@@ -1,4 +1,19 @@
 ---
 label: Hero template
 hide_body: true
-fields: []
+fields:
+- name: hero_image
+  type: file
+  config:
+    maxSize: 64
+  label: Hero image
+- name: hero_first_title
+  type: text
+  config:
+    required: false
+  label: Hero first title
+- name: hero_second_title
+  type: text
+  config:
+    required: false
+  label: Hero second title

@@ -1,4 +1,18 @@
 ---
 label: Chapo template
 hide_body: true
-fields: []
+fields:
+- name: chapo_text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Chapo text
+- name: chapo_link
+  type: text
+  config:
+    required: false
+  label: Chapo link

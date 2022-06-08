@@ -1,4 +1,29 @@
 ---
 label: Nav bar template
 hide_body: true
-fields: []
+fields:
+- name: logo_nab_bar
+  type: file
+  config:
+    maxSize: 64
+  label: Logo nab bar
+- name: nab_bar_first_link
+  type: text
+  config:
+    required: false
+  label: Nab bar first link
+- name: nav_bar_second_link
+  type: text
+  config:
+    required: false
+  label: Nav bar second link
+- name: nav_bar_third_link
+  type: text
+  config:
+    required: false
+  label: Nav bar third link
+- name: nav_bar_contact_link
+  type: text
+  config:
+    required: false
+  label: Nav bar contact link

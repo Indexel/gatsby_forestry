@@ -26,18 +26,18 @@ exports.createPages = async function ({ actions, graphql }) {
       }
     }
   `);
-  data.allMarkdownRemark.edges.forEach(edge => {
-    const { slug } = edge.node.fields;
-    actions.createPage({
-      path: slug,
-      component: require.resolve(`./src/templates/posts.js`),
-      context: { slug: slug },
-    });
-  });
+  // data.allMarkdownRemark.edges.forEach(edge => {
+  //   const { slug } = edge.node.fields;
+  //   actions.createPage({
+  //     path: slug,
+  //     component: require.resolve(`./src/templates/posts.js`),
+  //     context: { slug: slug },
+  //   });
+  // });
 
-  actions.createPage({
-    path: '/blog',
-    component: require.resolve(`./src/templates/list-posts.js`),
-    context: {},
-  });
+  // actions.createPage({
+  //   path: '/blog',
+  //   component: require.resolve(`./src/templates/list-posts.js`),
+  //   context: {},
+  // });
 };

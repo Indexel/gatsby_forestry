@@ -35,20 +35,20 @@ module.exports = {
         path: `${__dirname}/src/content/hero`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `chapo`,
-    //     path: `${__dirname}/src/content/chapo`,
-    //   },
-    // },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `table`,
-    //     path: `${__dirname}/src/content/table`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `chapo`,
+        path: `${__dirname}/src/content/chapo`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `table`,
+        path: `${__dirname}/src/content/table`,
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

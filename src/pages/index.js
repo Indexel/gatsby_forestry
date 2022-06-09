@@ -4,19 +4,18 @@ import * as React from 'react';
 
 import Layout from '../components/layout';
 import Header from '../components/header';
+import Hero from '../components/section/hero';
+import Chapo from '../components/section/chapo';
+import Table from '../components/section/table';
 import Seo from '../components/seo';
-import * as styles from '../components/index.module.css';
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <Header></Header>
-    <div className={styles.textCenter}>
-      <h1>
-        Welcome to <b>Indexel!</b>
-      </h1>
-    </div>
-    <ul className={styles.list}></ul>
+    <Hero></Hero>
+    <Chapo></Chapo>
+    <Table></Table>
   </Layout>
 );
 

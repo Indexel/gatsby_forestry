@@ -1,7 +1,7 @@
 ---
-title: 'post 3'
-date: '2022-08-25'
-img: '../uploads/image-3.jpeg'
+title: 'post 1'
+date: '2022-04-15'
+img: '../../uploads/image-1.jpeg'
 ---
 
 What is Lorem Ipsum?

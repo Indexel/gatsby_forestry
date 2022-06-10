@@ -1,0 +1,17 @@
+/* DEKSTOP CHAPO */
+
+.container-chapo {
+  width: 61%;
+  margin: 0 auto;
+}
+.text-chapo {
+  font-size: 58px;
+  font-weight: bold;
+}
+.text-chapo span {
+  color: #52c200;
+}
+.link-chapo {
+  color: #000;
+  font-size: 28px;
+}

@@ -2,7 +2,7 @@
 
 .section-hero {
   position: relative;
-  width: 100%;
+  margin: 0;
 }
 
 .figure-hero {

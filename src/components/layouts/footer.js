@@ -4,14 +4,19 @@ import facebook from '../../uploads/facebook.svg';
 import twitter from '../../uploads/twitter.svg';
 import linkedin from '../../uploads/linkedin.svg';
 import youtube from '../../uploads/youtube.svg';
+import '../../assets/css/footer.css';
 
-const Footer = ({ data }) => {
+const Footer = () => {
   return (
     <footer className="footer">
       <div className="container-footer">
         <div className="button-container-footer">
-          <Link to="">Demander un audit</Link>
-          <Link to="">Contacter-nous</Link>
+          <Link to="" className="button-audit-footer">
+            Demander un audit
+          </Link>
+          <Link to="" className="button-contact-footer">
+            Contacter-nous
+          </Link>
         </div>
         <div className="sitemap-container-footer">
           <Link to="">Expérience utilisateur</Link>

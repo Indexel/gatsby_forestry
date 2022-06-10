@@ -3,16 +3,14 @@ import * as React from 'react';
 // import { StaticImage } from 'gatsby-plugin-image';
 
 import Layout from '../components/layout';
-import Header from '../components/header';
-import Hero from '../components/section/hero';
-import Chapo from '../components/section/chapo';
-import Table from '../components/section/table';
-import Seo from '../components/seo';
+import Hero from '../components/sections/hero';
+import Chapo from '../components/sections/chapo';
+import Table from '../components/sections/table';
+import Seo from '../components/layouts/seo';
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <Header></Header>
     <Hero></Hero>
     <Chapo></Chapo>
     <Table></Table>

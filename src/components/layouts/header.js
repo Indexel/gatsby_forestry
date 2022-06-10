@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { graphql, Link } from 'gatsby';
-import logo from '../uploads/logo_indexel.webp';
+import logo from '../../uploads/logo_indexel.webp';
 
 const Header = ({ data }) => {
   // const { allMarkdownRemark } = data;

@@ -1,40 +1,30 @@
 import * as React from 'react';
-import { graphql, Link } from 'gatsby';
+import { Link } from 'gatsby';
 import logo from '../../uploads/logo_indexel.webp';
+import '../../assets/css/navBar.css';
 
-const Header = ({ data }) => {
-  // const { allMarkdownRemark } = data;
-  // const { frontmatter } = allMarkdownRemark;
+const Header = () => {
   return (
     <header className="header-nav">
-      <figure className="figure-nav">
-        <img className="img-nav" src={logo} />
-      </figure>
+      <Link to="/" className="logo-link-nav">
+        <img className="img-nav" src={logo} alt="logo" />
+      </Link>
       <div className="links-nav">
-        <Link to="">Expérience utilisateur</Link>
-        <Link to="">Culture green</Link>
-        <Link to="">Impact écologique</Link>
-        <Link to="">Contactez-nous</Link>
+        <Link to="" className="link-ancre">
+          Expérience utilisateur
+        </Link>
+        <Link to="" className="link-ancre">
+          Culture green
+        </Link>
+        <Link to="" className="link-ancre">
+          Impact écologique
+        </Link>
+        <Link to="" className="link-ancre-contact">
+          Contactez-nous
+        </Link>
       </div>
     </header>
   );
 };
-
-// export const query = graphql`
-//   query MyQuery {
-//     allMarkdownRemark {
-//       edges {
-//         node {
-//           frontmatter {
-//             nav_bar_first_link
-//             nav_bar_second_link
-//             nav_bar_third_link
-//             nav_bar_contact_link
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;
 
 export default Header;

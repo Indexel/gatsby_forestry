@@ -1,0 +1,43 @@
+/* DEKSTOP HERO */
+
+.section-hero {
+  position: relative;
+  width: 100%;
+}
+
+.figure-hero {
+  width: 100%;
+  height: 100%;
+}
+.img-hero {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content-hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content-text-hero {
+  color: #fff;
+  margin-right: 40px;
+}
+.main-text-hero {
+  font-size: 100px;
+}
+.second-text-hero {
+  font-size: 60px;
+}
+.content-title-hero {
+  font-size: 165px;
+  color: transparent;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: #fff;
+}

@@ -1,7 +1,7 @@
-import { Link } from 'gatsby';
 import * as React from 'react';
+import { Link } from 'gatsby';
 
-const Table = ({ data }) => {
+const Table = () => {
   return (
     <section className="section-table">
       <div className="container-table">
